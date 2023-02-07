@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+form{
+  text-align: center;
+  margin-top: 50px;
+}
+
+body{
+  background-color: #454545;
+}
+
+div{
+  background-color: rgb(30, 30, 30);
+  padding-bottom: 50px;
+  width: 70%;
+  margin: 10px auto;
+  color: white;
+  padding-top: 15px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form OneBit</title>
+  </head>
+  <body>
+    <h1>Formulário OneBitCode</h1>
+    <form>
+      <label for="name">Nome:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Seu nome aqui"
+        required
+      />
+      <br />
+      <br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Seu email aqui"
+        required
+      />
+      <label for="password">| Senha:</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Sua senha aqui"
+        required
+      />
+      <br /><br />
+      <label for="bday">Nascimento:</label>
+      <input type="date" name="bday" id="bday" />
+      <label for="picture">| Envie-nos uma foto sua:</label>
+      <input type="file" name="picture" id="picture" />
+      <br /><br />
+      <label for="nacionalidade">Nacionalidade:</label>
+      <select name="nacionalidade" id="nacionalidade">
+        <option value="Brasileiro">Brasileiro</option>
+        <option value="Russo">Russo</option>
+        <option value="Americano">Americano</option>
+      </select>
+      <label for="gender">Gênero:</label>
+      <label for="male">Masculino</label>
+      <input type="radio" name="gender" id="male" value="male" checked />
+      <label for="female">Feminino</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="button">Enviar</label>
+      <br /><br />
+      <input type="submit" name="submit" id="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
