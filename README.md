@@ -6,4 +6,5 @@
   <li>BOOTSTRAP</li>
   <li>SASS</li>
   <li>JAVASCRIPT 1</li>
-  <li>JAVASCRIPT 2 (em andamento)</li>
+  <li>JAVASCRIPT 2</li>
+  <li>JAVASCRIPT 3 (em andamento)</li>
