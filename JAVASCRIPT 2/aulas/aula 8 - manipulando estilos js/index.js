@@ -8,7 +8,7 @@ function useDarkTheme() {
   document.body.style.backgroundColor = "#212529";
 }
 
-function switchTheme() {  
+function switchTheme() {
   document.body.classList.toggle("is-light");
   document.body.classList.toggle("is-dark");
 }
